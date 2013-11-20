@@ -1,0 +1,330 @@
+header {
+  // w6g
+  > h1 {
+    fz279px
+    font-family: "Lato Hairline";
+    c#fff
+    lts-.040em
+    lh19px
+  }
+  > time {
+    font-family: "Lora Italic";
+    c#b0aeb8
+    fz12px
+    lts.2em
+    lh42
+    tt
+  }
+}
+
+
+article.feature {
+  // w 8g
+  > span {
+    font-family: "Merriweather Regular";
+    fz13px
+    lh79px
+    lts.2em
+    c#cbb8a0
+    tt
+  }
+  h1{
+    font-family: "Oswald Regular";
+    fs75px
+    lh79
+    c#fdcd84
+    tt
+  }
+  p {
+    font-family: "Merriweather Light";
+    fz25px
+    lh29
+    lts-.02em
+  
+  }
+}
+section.box-model {
+  tac
+  ml20px
+  mr-40px
+  // w5g
+  > h1 {
+    font-family: "Lora Bold Italic";
+    fz36px
+    c#5f5d66 
+    p {
+      mt12px
+      fs19px
+      lts-.020em
+      font-family: "Lato Regular";
+      c#6e6c77
+      lh27px
+    }
+  }
+}
+
+aside.afloat{
+  //w2g
+  ml20px
+  mr20px
+  h1 {
+    font-family: "Oswald Regular";
+    fz21px
+    c#24795a
+    lts-0.2em
+    
+    
+  }
+  p {
+    font-family: "Lato Regular";
+    fz14px
+    lh19px
+    lts-.020em
+    c#464646
+      }
+}
+
+section.bullets {
+  header {
+    bss
+    bw1px
+    bdc#e5e5e5
+    //w 10g
+    h1 {
+      font-family: "Oswald Regular";
+      fz15px
+      tt
+      lts-.04em
+      c#a97d35
+      ml20px
+      mr20px
+    
+    }
+    h2.subhead {
+      font-family: "Lato Bold";
+      fz12px
+      lh19px
+      tt
+      lts-.08em
+      c#e0c167
+      pb2px
+      ml20px
+      mr20px
+    }
+  }
+  ul {
+    li {
+      font-family: "Oswald Regular";
+      tt
+      c#e0e0e0
+      lts-0.25em
+      lh34px
+      ml20px
+      mr20px
+      span.calibre {
+        fz79px
+      }
+      span.manufacturer {
+        fz28px
+      }
+      span.weight {
+        fz32px
+        ttl
+        lh35px
+      } abbr.abbreviation {
+        lh35px
+        
+      }
+      
+    }
+    li:nth-of-type(3) {
+      span.calibre {
+        fz31px
+      }
+      span.manufacturer {
+        fz40px
+        lh44px
+      }
+      span.weight {
+        fz39px
+        ttl
+        lh40px
+      } abbr.abbreviation {
+        lh40px
+        
+      }
+    }
+    li:nth-of-type(4) {
+      span.calibre {
+        fz87px
+        lh42px
+      }
+      span.manufacturer {
+        fz38px
+        lh41px
+      }
+      span.weight {
+        fz40px
+        ttl
+        lh41px
+      } abbr.abbreviation {
+        lh41px
+      }
+    }
+    li:nth-of-type(5) {
+      span.calibre {
+        fz87px
+        lh42px
+      }
+      span.manufacturer {
+        fz38px
+        lh41px
+      }
+      span.weight {
+        fz32px
+        ttl
+        lh39px
+      } abbr.abbreviation {
+        lh39px
+      }
+    }
+  }
+}
+
+section.blocks {
+  // w12g
+  
+  h1{
+    font-family: "Oswald Regular";
+    c#fff
+    tt
+    fz49px
+    lh79px
+  }
+  figure {
+    
+    figcaption {
+      font-family: "Merriweather Light";
+      fz26px
+      lh35px
+      c#fff
+      lts-0.2em
+      
+      .credit {
+        fz18px
+        a {
+          
+        }
+      }
+    }
+  }
+}
+
+section.borders {
+  //w g8
+  h1 {
+    font-family: "Oswald Regular";
+    fz82px
+    lh79px
+    c#000
+    tt
+    bb21px#000solid
+  }
+  h2 {
+    font-family: "Oswald Regular";
+    fz39px
+    lh79px
+    c#000
+    bb3px#000solid
+  }
+  ul {
+    di 
+    li {
+      font-family: "Merriweather Light";
+      fs22px
+      lh29px
+      lts-.020em
+      &:before {
+        fs41px
+        p-6px
+        content: "\20\00b7\20"; // middot encoded http://css-tricks.com/snippets/html/glyphs/;
+      }
+      .p-country-name {
+        font-family: "Merriweather Heavy";
+      }
+    }
+  }
+
+
+section.overflow {
+  h1 {
+    font-family: "Oswald Regular";
+    fz82px
+    c#a0b4c0
+    lh79px
+    
+  } p {
+    font-family: "Lora Italic";
+    c#5e6c74
+    fz16px
+    lts-0.2em
+    lh26px
+    strong {
+      font-family: "Lora Bold Italic";
+    }
+  }
+}
+section.transformers {
+  
+  h1 {
+    font-family: "Oswald Regular";
+    fz31px
+    lh30px
+  }
+  h2 {
+    font-family: "Oswald Regular";
+    fz21px
+    lh30px
+  }
+  p {
+    font-family: "Lora Italic";
+    fz16px
+    lh24px
+    lts-.020em
+    c#fff
+  }
+  .rating {
+    fz14px
+    op.3
+    lh30px
+    
+    fz32px
+    lh34px
+    .score {
+      fz54px
+      lh30px
+      c#fff
+    }
+  }
+  .premiere {
+    tt
+    c#88aed1
+    fz14px
+    lh32px
+    background: #88aed1;
+    .place {
+      fz27px
+      lh33px
+    }
+    .p-country-name {
+      fz28px
+      lh34px
+      c#88aed1
+    }
+    time {
+      c#fff
+      fz39px
+      lh43px
+    }
+  }
+}
