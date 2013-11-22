@@ -1,4 +1,4 @@
-header>h1{CSS OFF}+time>span.vol{Volume 3}+span.date{September 2013}
+!!!+html>(head>meta[charset=UTF-8]+title{CSS Off 2013}+meta[name="viewport"][content="width=device-width, initial-scale=1"]+link:css[href="css/global.css"]+script[src="js/webfonts.js"])+body>header[role="banner"]>h1{CSS OFF}+p>.vol{Volume 3}+time[datetime=""]{September 2013}^^main[role="main"]>
 
 article.feature>span{feature}+h1{positioning relatives}+p{In }+del{1958}+ins{1858}+{, English pictorial photographer Henry Peach Robinson created the world’s first photomontage by combining five different negatives to make one complete print of a young girl on her deathbed. “Fading Away”—Robinson’s first and most famous composite photo—depicts a young girl dying of consumption and was controversial when it was exhibited, with many believing it was not a suitable subject for photography.}
 
